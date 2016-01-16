@@ -276,9 +276,9 @@ void loop()
   
   if (state == state_result)
   {
-    int blink_red = 0;
-    int blink_green = 0;
-    int blink_blue = 0;
+    uint8_t blink_red = 0;
+    uint8_t blink_green = 0;
+    uint8_t blink_blue = 0;
     
     //transmit results
     if ( (flag_preg) & (flag_not) )  //not pregnant
